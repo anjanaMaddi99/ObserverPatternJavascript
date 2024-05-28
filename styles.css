@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.weather-station-container {
+    display: flex;
+    width: fit-content;
+    font-weight: bolder;
+    font-size: xxx-large;
+    justify-content: center;
+    align-items: center;
+}
+.observers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.display-clock {
+    background-color: aquamarine;
+    flex:  0 1 calc(25% - 20px);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-button {
+    border-radius: 10px;
+    font-size: xxx-large;
+    font-weight: bolder;
+    border: 0.5px solid mediumvioletred;
+    background-color: rgba(199, 21, 133, 0.32);
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+}
